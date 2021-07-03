@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: calc(100vw - 1.2em); */
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container-one{
+width: 100%;
+height: 65vh;
+display: flex;
+justify-content: space-between;
+background: url(images/background/header-bg.png) no-repeat;
+background-size: 100% 100%;
+padding: 0 2em;
+}
+.half{
+    width: 45%;
+    margin: auto;
+}
+.half img{
+    width: 100%;
+    height: 65vh;
+    margin: auto;
+}
+
+.half h2{
+    font-weight: 400;
+    padding: 0 0 1em 0;
+}
+.half h1{
+    font-weight: bolder;
+    padding: 0 0 1em 0;
+    color: #ec4b74;
+}
+.half p{
+    color: gray;
+    padding-bottom: 1em;
+}
+.btn {
+    padding: .5em 1.5em;
+    color: white;
+    background-color: #ec4b74;
+    margin-top: 1em;
+    border: none;
+    border-radius: 1em;
+}
+.container-two{
+    background: url(images/background/biography-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 65vh;
+}
+.container-three {
+    width: 100%;
+    height: 55vh;
+    margin: 2em 0;
+}
+.container-three h2 {
+    text-align: center;
+}
+.latest-work{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 49vh;
+    padding: 1em;
+}
+.works{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    padding: 1em;
+}
+.works img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.footerSec{
+    width: 100%;
+    /* height: 55vh; */
+    margin: 2em 0;
+}
+.footer-content {
+    width:38%;
+    margin: auto;
+}
+.footer-content h1{
+    text-align: center;
+    color: black;
+    opacity: .9;
+    padding: 1em;
+}
+.footer-content h4{
+    text-align: center;
+    padding: .2em;
+}
+.footer-content h6{
+    text-align: center;
+    color: gray;
+    padding-bottom: 2em;
+}
+.footer-content p{
+   text-align: justify;
+   margin-bottom: 4em;
+}
+.contact-sec{
+    width: 60%;
+   margin: auto;
+   background-color: #ec4b74;
+   padding: 1em;
+}
+.contact-headings{
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
